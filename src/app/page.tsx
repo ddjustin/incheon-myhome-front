@@ -1,12 +1,9 @@
-// src/app/page.tsx
-"use client";
-
-import Header from "@/components/layout/Header";
+import MapContainer from "@/features/map/components/mapContainer";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <MapContainer />
     </>
   );
 }
