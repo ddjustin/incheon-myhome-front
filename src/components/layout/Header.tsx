@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50">
-      <div className="bg-white px-8 flex flex-row justify-between items-center h-16">
+      <div className="bg-white px-4 flex flex-row justify-between items-center h-16">
         <Link href="/" className="text-xl font-bold text-gray-800">
           인천내집
         </Link>
