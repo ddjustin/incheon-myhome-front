@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import "./globals.css";
 import type { Metadata } from "next";
+import ReactQueryProvider from "@/providers/ReactQueryProvider";
 
 export const metadata: Metadata = {
   title: "인천내집",
@@ -18,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <Header />
-        {children}
+        <ReactQueryProvider>
+          <Header />
+          {children}
+        </ReactQueryProvider>
       </body>
     </html>
   );
