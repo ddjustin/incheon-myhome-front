@@ -16,7 +16,6 @@ export default function PropertyContainer() {
     isSuccess,
     isError,
   } = usePropertiesInBoundsQuery(bounds);
-  console.log("properties", properties);
   return (
     <div className="absolute z-10 top-10 bg-white w-[400px] h-[calc(100vh)] overflow-y-auto border-r border-gray-200 shadow-md">
       <div className="flex items-center gap-2 p-4 border-b mt-6">

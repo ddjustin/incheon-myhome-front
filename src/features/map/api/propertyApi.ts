@@ -16,8 +16,6 @@ export async function getProperties(
     .gte("longitude", swLng)
     .lte("longitude", neLng);
 
-  console.log("data", data);
-  console.log("error", error);
   if (error) throw error;
   return data;
 }
