@@ -3,8 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "인천내집",
-  description: "인천내집 서비스",
+  title: "인천홈",
+  description: "인천홈",
   icons: {
     icon: "/logo.png",
   },
